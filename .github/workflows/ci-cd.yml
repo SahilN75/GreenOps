@@ -63,5 +63,5 @@ jobs:
           context: ./phase1/application
           push: true
           tags: |
-            ghcr.io/${{ github.repository_owner }}/greenops-api:latest
-            ghcr.io/${{ github.repository_owner }}/greenops-api:${{ github.sha }}
+            ghcr.io/sahiln75/greenops-api:latest
+            ghcr.io/sahiln75/greenops-api:${{ github.sha }}
